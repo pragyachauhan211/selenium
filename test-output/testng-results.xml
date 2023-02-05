@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="4" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-02-04T19:18:14 IST" name="Suite" finished-at="2023-02-04T19:18:40 IST" duration-ms="26393">
+    <groups>
+    </groups>
+    <test started-at="2023-02-04T19:18:14 IST" name="Test1" finished-at="2023-02-04T19:18:24 IST" duration-ms="10268">
+      <class name="testngDemo.testSuit">
+        <test-method is-config="true" signature="launch(org.testng.ITestContext)[pri:0, instance:testngDemo.testSuit@3cebbb30]" started-at="2023-02-04T19:18:14 IST" name="launch" finished-at="2023-02-04T19:18:20 IST" duration-ms="6289" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1e692555]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="drop()[pri:0, instance:testngDemo.testSuit@3cebbb30]" started-at="2023-02-04T19:18:20 IST" name="drop" description="login credential verification" finished-at="2023-02-04T19:18:23 IST" duration-ms="3575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- drop -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:testngDemo.testSuit@3cebbb30]" started-at="2023-02-04T19:18:23 IST" name="quit" finished-at="2023-02-04T19:18:24 IST" duration-ms="331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- testngDemo.testSuit -->
+    </test> <!-- Test1 -->
+    <test started-at="2023-02-04T19:18:24 IST" name="Test2" finished-at="2023-02-04T19:18:40 IST" duration-ms="16091">
+      <class name="testngDemo.testSuit">
+        <test-method is-config="true" signature="initExtentReport()[pri:0, instance:testngDemo.testSuit@4a883b15]" started-at="2023-02-04T19:18:13 IST" name="initExtentReport" finished-at="2023-02-04T19:18:14 IST" duration-ms="504" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initExtentReport -->
+        <test-method is-config="true" signature="launch(org.testng.ITestContext)[pri:0, instance:testngDemo.testSuit@4a883b15]" started-at="2023-02-04T19:18:24 IST" name="launch" finished-at="2023-02-04T19:18:28 IST" duration-ms="4381" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2ffb3aec]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method signature="dropDown()[pri:0, instance:testngDemo.testSuit@4a883b15]" started-at="2023-02-04T19:18:28 IST" name="dropDown" description="drop down" finished-at="2023-02-04T19:18:40 IST" duration-ms="11328" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropDown -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:testngDemo.testSuit@4a883b15]" started-at="2023-02-04T19:18:40 IST" name="quit" finished-at="2023-02-04T19:18:40 IST" duration-ms="378" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method is-config="true" signature="flush()[pri:0, instance:testngDemo.testSuit@4a883b15]" started-at="2023-02-04T19:18:40 IST" name="flush" finished-at="2023-02-04T19:18:41 IST" duration-ms="1208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flush -->
+      </class> <!-- testngDemo.testSuit -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
