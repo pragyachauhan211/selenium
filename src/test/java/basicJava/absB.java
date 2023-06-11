@@ -16,5 +16,16 @@ public abstract class absB implements interfaceA{
 	{
 		System.out.println("I am C");
 	}
+	
+	public void d() // newchange1
+	{
+		System.out.println("I am D");
+	}
+	
+	public void e() // newchange1
+	
+	{
+		System.out.println("I am E");
+	}
 
 }
