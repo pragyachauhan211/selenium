@@ -34,6 +34,10 @@ public abstract class absB implements interfaceA{
 	{
 		System.out.println("I am F");
 	}
-
+ 
+	public void g()
+	{
+		System.out.println("I am G"); // gg
+	}
 
 }
