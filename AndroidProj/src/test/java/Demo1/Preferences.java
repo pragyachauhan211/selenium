@@ -7,15 +7,13 @@ import io.appium.java_client.AppiumBy;
 import io.appium.java_client.android.AndroidDriver;
 
 public class Preferences extends baseClass {
-	//AndroidDriver androidDriver = baseClass.androidDriver;
 	
 	public Preferences () {
 	       super();
-	  //     PageFactory.initElements(baseClass.androidDriver,this);
 	    }
 
-	public void firstScreen_preferences() throws Exception {
-		
+	public void firstScreen_preferences() throws Exception {	
+		// AppiumBy.accessibilityId is used with locator - Preference  
 		androidDriver.findElement(AppiumBy.accessibilityId("Preference")).click();
 	}
 

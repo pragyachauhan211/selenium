@@ -12,10 +12,6 @@ public class baseClass {
 	
 	static AndroidDriver androidDriver;
 	DesiredCapabilities cab;
-	
-//	public baseClass() {
-	//	this.androidDriver = androidDriver;
-	//}
 
 	public void capabilities() throws Exception
 
