@@ -4,16 +4,18 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 
 import io.appium.java_client.AppiumBy;
+import io.appium.java_client.android.AndroidDriver;
 
 public class Preferences extends baseClass {
+	//AndroidDriver androidDriver = baseClass.androidDriver;
 	
-//	public Preferences (baseClass baseClass) {
-	  //     super();
+	public Preferences () {
+	       super();
 	  //     PageFactory.initElements(baseClass.androidDriver,this);
-	  //  }
+	    }
 
 	public void firstScreen_preferences() throws Exception {
-		capabilities();
+		
 		androidDriver.findElement(AppiumBy.accessibilityId("Preference")).click();
 	}
 

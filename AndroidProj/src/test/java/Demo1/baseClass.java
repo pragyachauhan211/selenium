@@ -10,7 +10,7 @@ import io.appium.java_client.remote.MobilePlatform;
 
 public class baseClass {
 	
-	AndroidDriver androidDriver;
+	static AndroidDriver androidDriver;
 	DesiredCapabilities cab;
 	
 //	public baseClass() {
