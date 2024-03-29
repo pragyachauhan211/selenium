@@ -8,6 +8,9 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 public class dimension {
 	
+	// http://makeseleniumeasy.com/2021/08/26/how-to-set-the-size-of-browser-window-in-selenium/#:~:text=Selenium%20provides%20a%20class%20named,and%20width%20of%20the%20browser.
+	// https://www.tutorialkart.com/selenium/java/get-width-and-height-of-element/#gsc.tab=0
+	
 	public void dim()
 	{
 		System.setProperty("webdriver.chrome.driver", "C:\\Chrome driver\\chromedriver.exe");
@@ -40,7 +43,7 @@ public class dimension {
 		
 		// Set new size
 		Dimension newDimension = new Dimension(1050, 708);
-		driver.manage().window().setSize(newDimension);	
+		driver.manage().window().setSize(newDimension);
 		driver.quit();	
 		
 	}

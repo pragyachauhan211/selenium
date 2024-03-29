@@ -42,7 +42,6 @@ public class launchChrome {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}	
-
 		driver.manage().window().maximize();
 		driver.findElement(By.xpath("//button[@id='accept-cookie-notification']")).click();
 		driver.findElement(By.xpath("//input[@id='user_email_login']")).sendKeys(username);

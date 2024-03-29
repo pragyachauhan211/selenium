@@ -14,8 +14,7 @@ public class TestDataPro {
 		return prop.getProperty(key);		
 	}
 
-	public static void main(String[] args) throws IOException {
-		
+	public static void main(String[] args) throws IOException {		
 		System.out.println(getGlobalValue("URL"));
 	}
 

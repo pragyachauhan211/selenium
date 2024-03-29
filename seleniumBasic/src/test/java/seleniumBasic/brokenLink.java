@@ -31,8 +31,7 @@ public class brokenLink implements A{
 	{
 		String url = hList.get(i).getAttribute("href");
 		
-		//URL link = new URL(url);
-		
+		//URL link = new URL(url);	
 		HttpURLConnection http = (HttpURLConnection)(new URL(url).openConnection());
 		http.setRequestMethod("HEAD");
 		http.connect();
